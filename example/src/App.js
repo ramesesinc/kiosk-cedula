@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'cedula-web'
+import cedula from 'cedula-web'
 import 'cedula-web/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const Cedula = cedula.Component;
+  return (
+    <div>
+    <h1>{cedula.title}</h1>
+    <img src={cedula.logo} />
+     <Cedula />
+    </div>
+  )
 }
 
 export default App

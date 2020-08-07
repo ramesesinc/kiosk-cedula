@@ -1,6 +1,6 @@
 {
   "name": "cedula-web",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "Made with create-react-library",
   "author": "ramesesinc",
   "license": "MIT",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "rsi-react-web-components": "^0.1.2"
+  }
 }
