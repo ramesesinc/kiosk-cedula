@@ -1,3 +1,3 @@
-import module from "./app/module";
-export default module;
+import plugin from "./app/plugin";
+export default plugin;
 
