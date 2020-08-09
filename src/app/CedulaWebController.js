@@ -23,23 +23,31 @@ const CedulaWebController = (props) => {
     setPage(type)
   }
 
-  const commonProps = { onComplete, onCancel }
+  const screenProps = { onComplete, onCancel }
 
   return (
-    <Page>
+    <Panel style={styles.container}>
       <Panel visibleWhen={page === 'home'}>
-        <HomeScreen {...props} {...commonProps} onSelectType={onSelectType} />
+        <HomeScreen {...props} {...screenProps} onSelectType={onSelectType} />
       </Panel>
 
       <Panel visibleWhen={page === 'individual'}>
-        <IndividualScreen {...props} {...commonProps} />
+        <IndividualScreen {...props} {...screenProps} />
       </Panel>
 
       <Panel visibleWhen={page === 'corporate'}>
-        <CorporateScreen {...props} {...commonProps} />
+        <CorporateScreen {...props} {...screenProps} />
       </Panel>
-    </Page>
+    </Panel>
   )
+}
+
+const styles = {
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
+  }
 }
 
 export default CedulaWebController

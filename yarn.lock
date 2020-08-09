@@ -10423,10 +10423,10 @@ rollup@^1.32.1:
     "@types/node" "*"
     acorn "^7.1.0"
 
-rsi-react-web-components@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/rsi-react-web-components/-/rsi-react-web-components-0.1.6.tgz#fb00d8aebd6f087f154165d5d7e1cf032bf39ffa"
-  integrity sha512-xVyel8N9OBrq2kM6nhcKdpAseGMdY9dDj1qEYtWVqqeFlKDg2VmtqH+8k8BV8coOuG/QD5u0D7f3JaerLtVhLA==
+rsi-react-web-components@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/rsi-react-web-components/-/rsi-react-web-components-0.1.8.tgz#7bd28bb79400875a999e557e4af49d57452c3fd1"
+  integrity sha512-VtGyY4g0zxWYUBgE5nPmDLtWBNMjb704rIR+kHWt2fsUqojX1O6/u3Y/q7KMLCvIbY9HSN2NvMCqjVX7yBz5ag==
   dependencies:
     "@date-io/date-fns" "^1.3.13"
     "@material-ui/core" "^4.11.0"

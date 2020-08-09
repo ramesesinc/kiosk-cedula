@@ -52,6 +52,6 @@
   ],
   "dependencies": {
     "react-router-dom": "^5.2.0",
-    "rsi-react-web-components": "^0.1.6"
+    "rsi-react-web-components": "^0.1.8"
   }
 }
