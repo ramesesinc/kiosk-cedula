@@ -38,7 +38,7 @@ const IndividualScreen = ({ onCancel, onComplete, ...rest }) => {
 
   return (
     <Panel>
-      <Title>Cedula (Individual)</Title>
+      <h1 className="header-menu">Cedula (Individual)</h1>
       <PageComponent step={currentStep} {...rest} {...pageProps} />
     </Panel>
   )
